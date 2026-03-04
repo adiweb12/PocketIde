@@ -2,7 +2,7 @@ name: Unzip and Sync
 on:
   push:
     paths:
-      - 'my_chat_app.zip' # Runs only when the zip file is updated
+      - 'PocketIDE.zip' # Runs only when the zip file is updated
   workflow_dispatch:      # Allows you to run it manually
 
 jobs:
