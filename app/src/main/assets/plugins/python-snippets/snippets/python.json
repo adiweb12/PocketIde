@@ -1,0 +1,52 @@
+{
+  "for_loop": {
+    "prefix": "for",
+    "body": "for ${1:item} in ${2:iterable}:\n    ${3:pass}",
+    "description": "Python for loop"
+  },
+  "function": {
+    "prefix": "def",
+    "body": "def ${1:function_name}(${2:args}):\n    \"\"\"${3:Docstring}\"\"\"\n    ${4:pass}",
+    "description": "Python function"
+  },
+  "class": {
+    "prefix": "class",
+    "body": "class ${1:ClassName}:\n    def __init__(self${2:, args}):\n        ${3:pass}",
+    "description": "Python class"
+  },
+  "if_else": {
+    "prefix": "if",
+    "body": "if ${1:condition}:\n    ${2:pass}\nelse:\n    ${3:pass}",
+    "description": "Python if/else"
+  },
+  "try_except": {
+    "prefix": "try",
+    "body": "try:\n    ${1:pass}\nexcept ${2:Exception} as e:\n    ${3:print(e)}",
+    "description": "Python try/except"
+  },
+  "with_open": {
+    "prefix": "with",
+    "body": "with open('${1:filename}', '${2:r}') as f:\n    ${3:content = f.read()}",
+    "description": "Python file open"
+  },
+  "list_comp": {
+    "prefix": "lc",
+    "body": "[${1:expr} for ${2:item} in ${3:iterable}]",
+    "description": "List comprehension"
+  },
+  "dict_comp": {
+    "prefix": "dc",
+    "body": "{${1:key}: ${2:value} for ${3:item} in ${4:iterable}}",
+    "description": "Dict comprehension"
+  },
+  "import": {
+    "prefix": "import",
+    "body": "import ${1:module}",
+    "description": "Python import"
+  },
+  "from_import": {
+    "prefix": "from",
+    "body": "from ${1:module} import ${2:name}",
+    "description": "Python from import"
+  }
+}

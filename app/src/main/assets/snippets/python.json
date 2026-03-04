@@ -1,0 +1,12 @@
+{
+  "print": "print($1)",
+  "def": "def $1($2):\n    $3",
+  "class": "class $1:\n    def __init__(self):\n        $2",
+  "for": "for $1 in $2:\n    $3",
+  "if": "if $1:\n    $2",
+  "try": "try:\n    $1\nexcept Exception as e:\n    $2",
+  "import": "import $1",
+  "from": "from $1 import $2",
+  "lambda": "lambda $1: $2",
+  "list_comp": "[$1 for $2 in $3]"
+}

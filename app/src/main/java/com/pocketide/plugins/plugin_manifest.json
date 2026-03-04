@@ -1,0 +1,8 @@
+{
+  "name": "python-snippets",
+  "version": "1.0",
+  "language": "python",
+  "snippets": "snippets/python.json",
+  "author": "PocketIDE Team",
+  "description": "Python code snippets and templates"
+}
